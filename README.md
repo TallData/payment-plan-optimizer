@@ -40,19 +40,19 @@ To set up the Payment Plan Optimizer on your local machine, follow these steps:
 
 	pip install -r requirements.txt
 
-python run.py
+	python run.py
 
 Open your web browser and navigate to http://127.0.0.1:5000/ to access the web interface.
 
 Follow the on-screen instructions to input your financial information and view your optimized repayment plan.
 
-Data
+##Data
 This project uses synthetic financial data to simulate various debt scenarios and repayment strategies. The data schema includes fields such as Initial_Debt, Interest_Rate, Monthly_Income, and Repayment_Strategy.
 
 Model Development
 The core of the Payment Plan Optimizer is a Decision Tree Classifier, trained on synthetic financial data to predict the most effective repayment strategy for any given financial situation. For more details on the model development process, refer to the notebooks/model_development.ipynb notebook.
 
-Contributing
+##Contributing
 Contributions to the Payment Plan Optimizer are welcome! Please refer to the CONTRIBUTING.md file for guidelines on how to make contributions.
 
 Contact
