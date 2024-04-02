@@ -30,7 +30,7 @@ To set up the Payment Plan Optimizer on your local machine, follow these steps:
 
 1. Clone the repository:
 
-   ```sh
+```
    git clone https://github.com/yourusername/payment-plan-optimizer.git
 
 	cd payment-plan-optimizer
@@ -41,26 +41,24 @@ To set up the Payment Plan Optimizer on your local machine, follow these steps:
 	pip install -r requirements.txt
 
 	python run.py
+```
 
-Open your web browser and navigate to http://127.0.0.1:5000/ to access the web interface.
+2. Open your web browser and navigate to http://127.0.0.1:5000/ to access the web interface.
 
 Follow the on-screen instructions to input your financial information and view your optimized repayment plan.
 
-##Data
+## Data
 This project uses synthetic financial data to simulate various debt scenarios and repayment strategies. The data schema includes fields such as Initial_Debt, Interest_Rate, Monthly_Income, and Repayment_Strategy.
 
-Model Development
+## Model Development
 The core of the Payment Plan Optimizer is a Decision Tree Classifier, trained on synthetic financial data to predict the most effective repayment strategy for any given financial situation. For more details on the model development process, refer to the notebooks/model_development.ipynb notebook.
 
-##Contributing
+## Contributing
+
 Contributions to the Payment Plan Optimizer are welcome! Please refer to the CONTRIBUTING.md file for guidelines on how to make contributions.
 
-Contact
+## Contact
 For any questions or suggestions, please contact us via email.
-
-
-Just save this content into a `.txt` file using your preferred text editor, and you'll have your project README ready to share. Be sure to replace the placeholder URLs and email address with the actual ones related to your project.
-
 
 
 
