@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment Plan Optimizer</title>
+</head>
+<body>
+    <h1>Welcome to the Payment Plan Optimizer</h1>
+    <p>Enter your details to optimize your payment plan.</p>
+    <form action="/optimize-plan" method="post">
+        <label for="initial_debt">Initial Debt:</label>
+        <input type="number" id="initial_debt" name="initial_debt" required><br><br>
+
+        <label for="interest_rate">Interest Rate (%):</label>
+        <input type="number" id="interest_rate" name="interest_rate" step="0.01" required><br><br>
+
+        <label for="minimum_payment_percentage">Minimum Payment Percentage (%):</label>
+        <input type="number" id="minimum_payment_percentage" name="minimum_payment_percentage" step="0.01" required><br><br>
+
+        <label for="monthly_income">Monthly Income:</label>
+        <input type="number" id="monthly_income" name="monthly_income" required><br><br>
+
+        <label for="monthly_expenses">Monthly Expenses:</label>
+        <input type="number" id="monthly_expenses" name="monthly_expenses" required><br><br>
+
+        <label for="additional_payment">Additional Payment:</label>
+        <input type="number" id="additional_payment" name="additional_payment"><br><br>
+
+        <label for="repayment_strategies">Repayment Strategy:</label>
+        <select id="repayment_strategies" name="repayment_strategies">
+            <option value="highest_interest_first">Highest Interest First</option>
+            <option value="snowball">Snowball</option>
+        </select><br><br>
+
+        <input type="submit" value="Optimize Payment Plan">
+    </form>
+</body>
+</html>
